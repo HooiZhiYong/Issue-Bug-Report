@@ -1,0 +1,89 @@
+name: Issue Report
+description: Report a bug, error, or give feedback on any of my projects
+title: "[Issue] - "
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Issue Report Form
+        Thank you for reporting an issue or giving feedback!  
+        Please fill in the details below as clearly as possible. 🙏  
+
+  # 1️ Choose which project
+  - type: dropdown
+    id: project
+    attributes:
+      label: "Which project is this issue about?"
+      description: "Select the project where you found the issue."
+      options:
+        - TARUMT GPA Calculator (C++)
+        - Staff Management System (Java)
+        - Grocery Online Shop (PHP)
+        - Cinema Website (C#)
+        - Other / Not listed
+    validations:
+      required: true
+
+  # 2️ Select type of issue
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: "Type of issue"
+      options:
+        - Compilation error
+        - Runtime crash
+        - Logic or calculation issue
+        - Input validation issue
+        - UI / Design problem
+        - Suggestion or improvement
+    validations:
+      required: true
+
+  # 3️ Describe what happened
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the issue"
+      description: "Explain what happened and what you expected instead."
+      placeholder: |
+        Example:
+        When I enter invalid input, the program crashes.
+        I expected it to show a warning message instead.
+    validations:
+      required: true
+
+  # 4️ Steps to reproduce
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce"
+      placeholder: |
+        1. Run the program
+        2. Select option X
+        3. Enter Y
+        4. Observe the error
+
+  # 5️ Screenshot upload
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "📷 Screenshot (optional)"
+      description: "Attach or paste a screenshot showing the issue."
+      placeholder: "Drag and drop an image here or paste it directly."
+
+  # 6️ Checklist
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Before submitting"
+      description: "Please make sure you’ve checked these points:"
+      options:
+        - label: "I have checked existing issues to avoid duplicates"
+          required: true
+        - label: "I’m using the latest version of the project"
+          required: false
+        - label: "I’ve provided clear steps to reproduce the issue"
+          required: true
