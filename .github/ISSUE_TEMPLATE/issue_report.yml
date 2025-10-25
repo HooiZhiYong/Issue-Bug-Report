@@ -64,7 +64,7 @@ body:
   - type: textarea
     id: screenshot
     attributes:
-      label: "📷 Screenshot (optional)"
+      label: "Screenshot (optional)"
       description: "Attach or paste a screenshot showing the issue."
       placeholder: "Drag and drop an image here or paste it directly."
 
