@@ -1,8 +1,11 @@
+name: 🐞 Issue Report
+description: Report a bug, error, or give feedback on any of my projects
+
 body:
   - type: markdown
     attributes:
       value: |
-        ## Issue Report Form
+        ## 🐞 Issue Report Form
         Thank you for reporting an issue or giving feedback!  
         Please fill in the details below as clearly as possible. 🙏  
 
@@ -15,9 +18,6 @@ body:
       options:
         - TARUMT GPA Calculator (C++)
         - Staff Management System (Java)
-        - Grocery Online Shop (PHP)
-        - Cinema Website (C#)
-        - Other / Not listed
     validations:
       required: true
 
