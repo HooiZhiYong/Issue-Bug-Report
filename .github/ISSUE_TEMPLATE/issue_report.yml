@@ -1,9 +1,3 @@
-name: Issue Report
-description: Report a bug, error, or give feedback on any of my projects
-title: "[Issue] - "
-labels: [bug]
-assignees: []
-
 body:
   - type: markdown
     attributes:
