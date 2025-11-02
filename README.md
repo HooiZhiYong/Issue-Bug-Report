@@ -9,7 +9,8 @@ If you find a bug or have suggestions for any of my projects, please open an iss
 
 ### Projects You Can Report On
 - TARUMT GPA Calculator (C++)  
-- Staff Management System (Java)  
+- Staff Management System (Java)
+- TARUMT GPA Calculator (python) 
 
 ---
 
