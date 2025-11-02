@@ -16,8 +16,9 @@ body:
       label: "Which project is this issue about?"
       description: "Select the project where you found the issue."
       options:
-        - TARUMT GPA Calculator (C++)
-        - Staff Management System (Java)
+        - TARUMT GPA Calculator CLI (C++)
+        - TARUMT GPA Calculator GUI (Python)
+        - Staff Management System CLI (Java)
     validations:
       required: true
 
